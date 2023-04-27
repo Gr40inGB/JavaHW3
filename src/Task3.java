@@ -4,7 +4,8 @@ public class Task3 {
     public static void main(String[] args) {
 //        Заполнить список названиями планет Солнечной системы в произвольном порядке с повторениями.
 //        Вывести название каждой планеты и количество его повторений в списке.
-        List<String> allPlanet = new ArrayList<>(Arrays.asList("Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"));
+        List<String> allPlanet = new ArrayList<>(Arrays.asList("Mercury", "Venus",
+                "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"));
         List<String> l = getRandomPlanet(allPlanet);
         System.out.println(l);
         countPlanet(allPlanet, l);
